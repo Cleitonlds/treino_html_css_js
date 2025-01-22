@@ -1,0 +1,64 @@
+body {
+    background-color: whitesmoke;
+}
+
+header{
+    color: #023535;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+nav {
+    background-color: #0FC2C0;
+    gap: 5px;
+    padding: 5px;
+}
+
+#nav_list {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+aside {
+    color: white;
+    background-color: #023535;
+}
+#nome_serumano{
+    text-align: center;
+}
+
+main {
+    color: white;
+    display: flex;
+    gap: 10px;
+    background-color: #023535;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.aside_main{
+    display: flex;
+    padding: 5px 0px 5px 0px;
+    gap: 10px;
+
+}
+article{
+    gap: 10px;
+    padding: 10px;
+    
+}
+aside img{
+    transform: scale(50%);
+    
+}
+
+footer{
+    background-color: #008F8C;
+    display: flex;
+    justify-content: space-between;
+}
