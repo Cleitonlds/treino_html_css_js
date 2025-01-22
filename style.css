@@ -5,36 +5,40 @@ body {
 header{
     color: #023535;
     text-align: center;
-    gap: 10px;
-    padding: 10px;
-
 }
 
 nav {
-    background-color: #0FC2C0;
+    background-color: #015958;
     gap: 5px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 #nav_list {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
 }
 
 aside {
     color: white;
     background-color: #023535;
+    border-radius: 5px;
 }
+
 #nome_serumano{
+    font-size:x-large;
     text-align: center;
+    position: relative;
+    bottom: 120px;
 }
 
 main {
     color: white;
     display: flex;
     gap: 10px;
+    padding: 10px;
     background-color: #023535;
+    border-radius: 0px 5px 5px 0px;
 }
 
 ul{
@@ -44,9 +48,9 @@ ul{
 .aside_main{
     display: flex;
     padding: 5px 0px 5px 0px;
-    gap: 10px;
-
+    gap: 1px;
 }
+
 article{
     gap: 10px;
     padding: 10px;
@@ -54,11 +58,35 @@ article{
 }
 aside img{
     transform: scale(50%);
-    
+    position: relative;
+    bottom: 40px;
 }
 
 footer{
-    background-color: #008F8C;
+    color: white;
+    background-color: #015958;
+    position: relative;
+    bottom: 20px;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+#footer_list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px ;
+    padding: 10px;
+}
+
+#aside_list{
+    font-size: large;
+    gap: 10px;
+    padding: 10px;
+}
+
+aside ul li a {
+    color: white;
+}
+
+nav ul li a {
+    color: white;
 }
