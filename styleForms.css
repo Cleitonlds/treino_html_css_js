@@ -1,6 +1,6 @@
 body{
+    display: block;
     background-color: whitesmoke;
-    align-items: center;
 }
 
 header{
@@ -10,10 +10,12 @@ header{
 
 #container_form{
     background-color: #023535;
-    display: flex;
-    justify-content: center;
     color: white;
-    
+    display:inline-flex;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+    padding: 20px; 
 }
 
 .container{
@@ -25,4 +27,8 @@ input{
     /*display: block;*/
     gap: 5px;
     padding: 5px;
+}
+
+#inputEmail{
+    margin-top: 20px;
 }
